@@ -1,7 +1,7 @@
 import React from 'react'
 import p1 from '../../Images/p1.png'
-
 import { SlArrowRightCircle } from "react-icons/sl";
+
 export const Project = () => {
     return (
         <>
@@ -14,6 +14,8 @@ export const Project = () => {
                     <a href="" class=" flex gap-4 text-overlay2 text-3xl font-thin  text-white ">View work <SlArrowRightCircle /></a>
                 </div>
             </div>
-            <div className='bgcolorp'></div></>
+
+            <div className='bgcolorp'></div>
+        </>
     )
 }
