@@ -3,11 +3,12 @@ import { Navbar } from '../Navbar/Navbar'
 import { Footer } from '../Footer/Footer'
 import p from '../../Images/photo.png'
 import p1 from '../../Images/p1.png'
+import p2 from '../../Images/loadkro.png'
+import p3 from '../../Images/shopping.png'
 import './Home.css'
 import { SlArrowRightCircle } from "react-icons/sl";
 import { Project } from '../Project/Project'
-import { Contact } from '../Contact/Contact'
-import { Contact1 } from '../Contact1/Contact1'
+import Contact from '../Contact/Contact'
 export const Home = () => {
   return (
     <>
@@ -101,11 +102,34 @@ export const Home = () => {
         <div class="text-5xl text-sky-400 font-medium pt-3"><h1>Projects</h1></div>
       </div>
 
-     
-      <Project/>
-      <Contact1/>
-      <Footer/>
-     
+
+      <Project />
+      <div class="container pl-32 mt-24 w-full relative ">
+        <div className='imgshadow'></div>
+        <div className='flex justify-end'><img src={p2} alt="Your Image" class="image ml-12 h-50 w-48   "></img>
+          <div className='z-20 '>
+            <p class="absolute top-20 left-64  w-60 bg-none text-4xl font-bold text-teal-400"># Loadkro</p>
+            <p class="absolute top-32 left-64 w-70 bg-none text-2xl text-sky-400 ">~ Transportation website</p>
+            <a href="" class=" flex gap-4 absolute top-60 left-60 w-70 bg-none text-3xl font-thin  text-white ">View work <SlArrowRightCircle /></a>
+          </div> </div>
+
+      </div>
+
+
+      <div class="container pl-32 mt-24 w-full relative ">
+        <div className='z-20'>
+          <p class="  text-overlay font-bold text-teal-400"># Alpha</p>
+          <p class="  text-overlay1 text-2xl text-sky-400 ">~ Ecommerce website</p>
+          <a href="" class=" flex gap-4 text-overlay2 text-3xl font-thin  text-white ">View work <SlArrowRightCircle /></a>
+        </div>
+        <img src={p3} alt="Your Image" class="image ml-6 "></img>
+        <div className='bgcolorp'></div>
+      </div>
+
+      <Contact />
+
+      <Footer />
+
 
     </>
 
