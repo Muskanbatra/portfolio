@@ -54,41 +54,45 @@ export const Home = () => {
 
       <div class="flex ">
 
-        <div id="card" class="p-8 mt-28 mr-7 ml-28  cursor-pointer  bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
-          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">2019</p>
-          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Front-End Developer</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">Company Name:,</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">From:,</p>
+        <div id="card" class="p-8 mt-28 w-[700px]  h-[450px] mr-7 ml-8  cursor-pointer  bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
+          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">Search-In</p>
+          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Web Developer Intern</p>
+          <p class=" bg-custom-color text-1xl text-pink-300 pt-3">Jan 2023 - March 2023</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Worked with Mr. Rushikesh on web services and Creating API for Job Portal and Chance Guru</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Creating backend logic using Node.js and Express.Built UI Using (using HTML, CSS, JavaScript, React.js, Material UI).</p>
+<a href="#" class=" bg-custom-color inline-flex items-center text-blue-600 hover:underline pt-3">
+            Certificate
+          </a>
+        </div>
+
+        <div id="card" class="p-8  w-[700px] h-[500px] cursor-pointer mt-48 mr-7 pb-10 bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
+          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">Wedsin Limited</p>
+          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Full Stack Developer Intern</p>
+          <p class=" bg-custom-color text-1xl text-pink-300  pt-3">June 2023 - Aug 2023</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Developed server-side logic and API for mobile app using node.js and express.</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Developed client and server-side web application using React.js, Node.js, Express and MongoDB.Created API and backend logic using Node.js and Express</p>          
           <a href="#" class=" bg-custom-color inline-flex items-center text-blue-600 hover:underline pt-3">
             Certificate
           </a>
         </div>
 
-        <div id="card" class="p-8  cursor-pointer mt-48 mr-7 pb-10 bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
-          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">2019</p>
-          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Front-End Developer</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">Company Name:,</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">From:,</p>
+        <div id="card" class="p-8 w-[700px] h-[450px] cursor-pointer mt-28 mr-7  bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color ">
+          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">Web2success</p>
+          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Front end Developer Intern </p>
+          <p class=" bg-custom-color text-1xl text-pink-300  pt-3">Aug 2023 - Oct 2023</p>
+          {/* <p class=" bg-custom-color text-1xl text-white pt-3">Developed user interface using Next.Js, MUI and TypeScript.</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Integrating REST APIs and Error handling at client side.</p> */}
           <a href="#" class=" bg-custom-color inline-flex items-center text-blue-600 hover:underline pt-3">
             Certificate
           </a>
         </div>
 
-        <div id="card" class="p-8  cursor-pointer mt-28 mr-7  bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
-          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">2019</p>
-          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Front-End Developer</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">Company Name:,</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">From:,</p>
-          <a href="#" class=" bg-custom-color inline-flex items-center text-blue-600 hover:underline pt-3">
-            Certificate
-          </a>
-        </div>
-
-        <div id="card" class="p-8   cursor-pointer mt-48 mr-7 pb-10 bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
-          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">2019</p>
-          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Front-End Developer</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">Company Name:,</p>
-          <p class=" bg-custom-color text-1xl text-white pt-3">From:,</p>
+        <div id="card" class="p-8  w-[700px] h-[500px] cursor-pointer mt-48 mr-7 pb-10 bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl bg-custom-color">
+          <p class=" bg-custom-color text-3xl text-teal-400 font-bold pt-5">Unico Global</p>
+          <p class=" bg-custom-color text-2xl text-sky-400 font-medium pt-5">Full Stack Developer Fulltime</p>
+          <p class=" bg-custom-color text-1xl text-pink-300 pt-3">Oct 2023 - Persent</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Developed user interface using Next.Js, MUI and TypeScript and Integrating REST APIs.</p>
+          <p class=" bg-custom-color text-1xl text-white pt-3">Creating backend logic using Node.js and Express.</p>
           <a href="#" class=" bg-custom-color inline-flex items-center text-blue-600 hover:underline pt-3">
             Certificate
           </a>
