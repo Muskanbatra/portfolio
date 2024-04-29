@@ -20,15 +20,15 @@ export const Footer = () => {
                 </div>
             </footer>
             <div className='flex flex-row justify-between items-center text-zinc-500 pl-36 pr-36 pt-3 pb-3 border-white text-xs'>
-            <div className='flex flex-row justify-between items-center gap-12 '>
-                        <div> <a href=''>HOME</a> </div>
-                        <div><a href=''>EXPERIENCE</a> </div>
-                        <div> <a href=''>ABOUT</a></div>
-                        <div><a href=''>CONTACT</a></div>
-                    </div>
-                    <div className=" p-2  ">All Rights Reserved</div>
-                  
+                <div className='flex flex-row justify-between items-center gap-12 '>
+                    <div> <a href=''>HOME</a> </div>
+                    <div><a href=''>EXPERIENCE</a> </div>
+                    <div> <a href=''>ABOUT</a></div>
+                    <div><a href=''>CONTACT</a></div>
                 </div>
+                <div className=" p-2  ">All Rights Reserved</div>
+
+            </div>
         </>
     )
 }

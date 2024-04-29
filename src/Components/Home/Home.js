@@ -1,4 +1,6 @@
+import './Home.css'
 import React from 'react'
+import p from '../../Images/photo.png'
 import { Navbar } from '../Navbar/Navbar'
 import { Footer } from '../Footer/Footer'
 import p from '../../Images/photo.png'
@@ -9,6 +11,10 @@ import './Home.css'
 import { SlArrowRightCircle } from "react-icons/sl";
 import { Project } from '../Project/Project'
 import Contact from '../Contact/Contact'
+import { Project } from '../Project/Project'
+import { Contact } from '../Contact/Contact'
+import { Contact1 } from '../Contact1/Contact1'
+
 export const Home = () => {
   return (
     <>
@@ -19,7 +25,6 @@ export const Home = () => {
           <img src={p} alt="image description"></img>
           <div className='bgcolor'></div>
         </div>
-
 
         <div className='hometext pt-24'>
           <div class="text-9xl text-teal-400 font-bold"><h1>Hello</h1></div>
@@ -47,6 +52,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+
       <div className='experience ml-24'>
         <div class="text-6xl text-teal-400 font-bold"><h1>#2</h1></div>
         <div class="text-5xl text-sky-400 font-medium pt-3"><h1>Experience</h1></div>
@@ -136,7 +142,5 @@ export const Home = () => {
 
 
     </>
-
-
   )
 }
