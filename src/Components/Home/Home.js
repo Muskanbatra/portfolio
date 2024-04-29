@@ -3,16 +3,12 @@ import React from 'react'
 import p from '../../Images/photo.png'
 import { Navbar } from '../Navbar/Navbar'
 import { Footer } from '../Footer/Footer'
-import p from '../../Images/photo.png'
 import p1 from '../../Images/p1.png'
 import p2 from '../../Images/loadkro.png'
 import p3 from '../../Images/shopping.png'
-import './Home.css'
 import { SlArrowRightCircle } from "react-icons/sl";
 import { Project } from '../Project/Project'
 import Contact from '../Contact/Contact'
-import { Project } from '../Project/Project'
-import { Contact } from '../Contact/Contact'
 import { Contact1 } from '../Contact1/Contact1'
 
 export const Home = () => {
